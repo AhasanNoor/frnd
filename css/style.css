@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#bg-section{
+	background: yellow url(../images/bg.jpg);
+	height: 100vh;
+	position: relative;
+}
+.form{
+    width: 464px;
+    max-width: 100%;
+    background-color: #E0E0E0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.form h1{
+    color: #277da0;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 70px;
+}
+.form img{
+    width: 41px;
+    max-width: 100%;
+    padding-left: 18px;
+}
+.Sign-up form input{
+    max-width: 100%;
+    width: 405px;
+    margin-left: 18px;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+.check-box form{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.check-box form input{
+	margin-left: 18px;
+}
+.check-box a{
+	padding-left: 186px;
+    text-decoration: none;
+    color: #277da0;    
+}
+.btn {
+    text-transform: uppercase;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 3px 185px;
+    margin-left: 15px;
+    font-size: larger;
+}
+p{
+	margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #005181;
+}
